@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondoapp"
+    tools:context=".ADMIN.SubirArticuloADMIN">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="20dp"
+                    android:background="@drawable/bordes">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SUBIR"
+                        android:layout_gravity="center"
+                        android:textSize="30sp"
+                        android:textAlignment="center"/>
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/uploading"
+                        android:id="@+id/imagen"
+                        android:scaleType="fitXY"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:id="@+id/nombre"
+                        android:background="@drawable/bordes"
+                        android:layout_marginTop="5dp"
+                        android:padding="16dp"
+                        android:hint="Nombre del artículo"
+                        android:gravity="start|center_vertical"
+                        android:textColor="@color/lavanda"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:id="@+id/descripcion"
+                        android:background="@drawable/bordes"
+                        android:layout_marginTop="10dp"
+                        android:padding="16dp"
+                        android:hint="Descripción"
+                        android:gravity="start|center_vertical"
+                        android:textColor="@color/lavanda"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:id="@+id/estado"
+                        android:background="@drawable/bordes"
+                        android:layout_marginTop="10dp"
+                        android:padding="16dp"
+                        android:hint="Estado del artículo"
+                        android:gravity="start|center_vertical"
+                        android:textColor="@color/lavanda"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:id="@+id/precio"
+                        android:background="@drawable/bordes"
+                        android:layout_marginTop="10dp"
+                        android:padding="16dp"
+                        android:hint="Precio"
+                        android:gravity="start|center_vertical"
+                        android:textColor="@color/lavanda"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="Guardar"
+                        android:id="@+id/bt_guardar"
+                        android:textSize="18sp"
+                        android:layout_marginTop="10dp"
+                        app:cornerRadius = "20dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

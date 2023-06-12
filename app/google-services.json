@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "568843824087",
+    "project_id": "appventas-e5a89",
+    "storage_bucket": "appventas-e5a89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568843824087:android:470ee621003b456f127992",
+        "android_client_info": {
+          "package_name": "com.sulty.appventa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568843824087-agu3uuo6b1dk73dmeli5jv1gqpptsp0u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sulty.appventa",
+            "certificate_hash": "e790b2e5e8b1aa86ff04789a091144290a84e85d"
+          }
+        },
+        {
+          "client_id": "568843824087-lttfm4l4tc6r70bk8sc7lc7g56ri4tf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByPWrgYDHXlz3U7h08GpVfw9SL6M_CSWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568843824087-lttfm4l4tc6r70bk8sc7lc7g56ri4tf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
